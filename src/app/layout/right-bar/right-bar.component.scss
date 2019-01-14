@@ -1,0 +1,23 @@
+@import "../../../assets/scss/variables";
+
+#right-bar-wrapper {
+  display: table;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10%;
+  border-left: solid 2px $flogz-dark-green;
+}
+
+.right-bar-toolbar {
+  display: table-cell;
+  width: 80px;
+  background-color: $flogz-gray-green;
+  font-size: 14px
+}
+
+.right-bar-toolbar a {
+  line-height: 3.6em
+}
+
+

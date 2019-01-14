@@ -1,0 +1,19 @@
+.flogz-bottom-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 0;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  z-index: 1;
+  -webkit-box-shadow: -1px -1px 10px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px -1px 10px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px -1px 10px -1px rgba(0, 0, 0, 0.1);
+  margin-top: -50px;
+}
+
+.bottom-bar-content {
+  padding: 14px 0px 0px 0px;
+}

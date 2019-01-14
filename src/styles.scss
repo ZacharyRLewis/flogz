@@ -1,0 +1,123 @@
+@import "assets/scss/variables";
+
+body {
+  margin: 20px 0 0 0;
+  //background-color: lightgray;
+}
+
+body.flogz-modal-open {
+  overflow: hidden;
+}
+
+.page-title-wrapper .page-title {
+  display: inline-block !important;
+}
+
+.page-title-wrapper .button-wrapper {
+  float: right;
+  font-size: 24px;
+}
+
+.add-button {
+  border: 1px solid $flogz-dark-green;
+  color: $flogz-dark-green;
+  background: #fff;
+  border-radius: 25px;
+  min-width: 150px;
+  font-size: 0.7em;
+  padding: 4px 12px
+}
+
+.add-button .pi {
+  font-size: 22px;
+  vertical-align: bottom;
+}
+
+.flogz-modal-title {
+  width: 75%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+.flogz-modal-close {
+  font-size: 2.4em !important;
+  border: none;
+  background-color: transparent;
+  color: $flogz-dark-green !important;
+  float: right;
+  padding: 0;
+}
+
+.flogz-modal-body {
+  padding: 15px;
+}
+
+.action-buttons {
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: $modal-body-width;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  .action-buttons-container {
+    border-top: solid 1px #ccc;
+    padding: 15px 0;
+    margin-left: -8px;
+    margin-right: 8px;
+  }
+
+  .action-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+  }
+}
+
+.flogz-form-body {
+  display: grid;
+  width: 99%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+
+  .flogz-label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .flogz-form-group {
+    height: 34px;
+  }
+
+  .flogz-input {
+    width: 90%;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+
+  .flogz-select {
+    width: 96%;
+    height: 28px;
+    background-color: white;
+  }
+}
+
+.nested-table .ui-table {
+  margin-top: 25px;
+
+  tr {
+    height: 22px;
+  }
+}
+
+.table-row {
+  display: table-row
+}
+
+.empty-row {
+  height: 100vh
+}

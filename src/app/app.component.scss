@@ -1,0 +1,13 @@
+.flogz-main-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.app-container {
+  transition: margin-left .5s;
+  padding-left: 11%;
+  padding-right: 11%;
+  padding-top: 50px;
+  overflow: auto;
+  max-height: calc(100vh - 130px);
+}
